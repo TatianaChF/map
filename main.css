@@ -14,7 +14,8 @@ body {
 .map-circle679,
 .map-circle686,
 .map-circle683,
-.map-circle682 {
+.map-circle682,
+.map-circle681 {
     border-radius: 50%;
     height: 41px;
     width: 41px;
@@ -31,7 +32,8 @@ body {
 }
 
 .map-circle678,
-.map-circle679 {
+.map-circle679,
+.map-circle681 {
     background: #6abf4bb7;
 }
 
@@ -69,13 +71,19 @@ body {
     left: 850px;
 }
 
+.map-circle681 {
+    top: 280px;
+    left: 1030px;
+}
+
 .map-circle669 p,
 .map-circle678 p,
 .map-circle684 p,
 .map-circle679 p,
 .map-circle686 p,
 .map-circle683 p,
-.map-circle682 p {
+.map-circle682 p,
+.map-circle681 p {
     color: white;
     font-weight: bold;
     font-size: 18px;
