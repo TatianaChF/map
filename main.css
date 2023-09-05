@@ -8,22 +8,48 @@ body {
     margin: 0 auto;
 }
 
-.map-circle669 {
-    background: #3878eebc;
+.map-circle669,
+.map-circle678,
+.map-circle684 {
     border-radius: 50%;
     height: 41px;
     width: 41px;
     position: relative;
-    margin-top: 565px;
-    margin-left: 350px;
     cursor: pointer;
 }
 
-.map-circle669 p {
+.map-circle684,
+.map-circle669 {
+    background: #3878eebc;
+}
+
+.map-circle678 {
+    background: #6abf4bb7;
+}
+
+.map-circle684 {
+    top: 165px;
+    left: 1090px;
+}
+
+.map-circle669 {
+    top: 565px;
+    left: 350px;
+}
+
+.map-circle678 {
+    top: 335px;
+    left: 545px;
+}
+
+.map-circle669 p,
+.map-circle678 p,
+.map-circle684 p {
     color: white;
     font-weight: bold;
+    font-size: 18px;
     left: 50%;
     position: absolute;
-    top: 12%;
+    top: 8%;
     transform: translate(-50%, -50%);
 }
