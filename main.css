@@ -7,3 +7,23 @@ body {
 .map {
     margin: 0 auto;
 }
+
+.map-circle669 {
+    background: #3878eebc;
+    border-radius: 50%;
+    height: 41px;
+    width: 41px;
+    position: relative;
+    margin-top: 565px;
+    margin-left: 350px;
+    cursor: pointer;
+}
+
+.map-circle669 p {
+    color: white;
+    font-weight: bold;
+    left: 50%;
+    position: absolute;
+    top: 12%;
+    transform: translate(-50%, -50%);
+}
