@@ -121,3 +121,16 @@ body:before {
     top: 8%;
     transform: translate(-50%, -50%);
 }
+
+#closed {
+    display: block;
+}
+
+#open {
+    display: none;
+}
+
+.map-info {
+    display: flex;
+    flex-direction: row;
+}
