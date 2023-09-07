@@ -8,8 +8,16 @@
  </head>
  <body>
   <div class="map" id="map">
-    <div class="map-circle684">
-      <p>+</p>
+    <div class="map-info">
+      <div class="map-circle684" id="684" onclick="pointHandler()">
+        <div class="map-circle684-closed" class="closed" id="closed">
+          <p>+</p>
+        </div>
+        <div class="map-circle684-open" class="open" id="open">
+          <p>-</p>
+          <div class="map-title">Дом</div>
+        </div>
+      </div>
     </div>
     <div class="map-circle686">
       <p>+</p>
